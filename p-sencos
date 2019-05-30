@@ -1,0 +1,6 @@
+ <?php
+    for($i=0;$i<90;$i++){
+    echo "Grados: $i seno:".sin(2*pi()*$i/360)." coseno: ".cos(2*pi()*$i/360)."\n "; //calculo con función pi()
+}
+//
+?>
